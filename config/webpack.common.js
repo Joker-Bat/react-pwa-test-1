@@ -39,6 +39,9 @@ module.exports = {
             ignore: ['*.DS_Store'],
           },
         },
+        {
+          from: paths.src + '/pwa',
+        },
       ],
     }),
 
